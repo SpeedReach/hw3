@@ -44,6 +44,7 @@ private:
     void copyTmpToMain(int depth);
     //當前allocate到的層數
     int maxDepth = 0;
+    //binary search
     bool bsearch(int* array,int target,int l,int r);
 };
 
@@ -55,13 +56,15 @@ SortedArrays::~SortedArrays(){
 }
 
 void SortedArrays::insert(int value) {
-
+    //檢查第一格是否為空，是的話insert到那一格，然後return
+    //否則insert到 tmp array的第一格
     if(arrays[0][0] == -1) {
         arrays[0][0] = value;
         return;
     }
     else tmpArrays[0][0] = value;
 
+    //從第一層開始把tmp跟arrays往下merge到tmp的下一層，直到找到一個arrays是空的那層，把tmp array複製過去
     for(int i=0;i<= maxDepth;i++){
         merge(i);
         if(arrays[i+1][0] == -1){
@@ -102,7 +105,9 @@ void SortedArrays::print() {
     }
 }
 
+
 bool SortedArrays::search(int value) {
+    //從最上面開始besearch到最後一層，看有沒有找到目標
     for(int i=0;i<= maxDepth;i++){
         if(bsearch(arrays[i],value,0, pow(2,i)-1)){
             return true;

@@ -22,14 +22,14 @@ std::uniform_int_distribution<int> distr(0, INT_MAX);
 fstream insertO;
 fstream searchO;
 
-void process(Collection* (*func)()){
-    Collection* c = func();
+void process(Collection* (*func)(int)){
+    Collection* c = func(0);
 
     insertO<<c->name() << endl;
     searchO<<c->name() << endl;
     delete c;
     for(int i=10;i<30;i++){
-        Collection* collection = func();
+        Collection* collection = func(i);
 
         int n = pow(2,i);
         try{
@@ -41,7 +41,7 @@ void process(Collection* (*func)()){
             //insertO << collection->name() << " took "<< insertEnd-insertStart << " inserting 2^"<<i<<" datas"<<endl;
             insertO << insertEnd-insertStart <<endl;
             clock_t searchStart = clock();
-            for(int j=0;j<n;j++){
+            for(int j=0;j<100000;j++){
                 collection->search(distr(eng));
             }
             clock_t searchEnd = clock();
@@ -61,22 +61,22 @@ void process(Collection* (*func)()){
     }
 }
 
-Collection* bTree(){
+Collection* bTree(int k){
     return new BTree(10);
 }
 
-Collection* treap(){
+Collection* treap(int k){
     return new Treap();
 }
-Collection* hashTable(){
+Collection* hashTable(int k){
     return new HashTable();
 }
 
-Collection* skipList(){
-    return new SkipList(6,0.5);
+Collection* skipList(int k){
+    return new SkipList(100*k,0.5);
 }
 
-Collection* sortedArrays(){
+Collection* sortedArrays(int k){
     return new SortedArrays();
 }
 
@@ -89,8 +89,5 @@ int main(){
 
 /*
 
-    process(bTree);
-    process(treap);
-    process(hashTable);
-    process(skipList);
+
  */

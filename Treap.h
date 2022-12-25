@@ -202,7 +202,7 @@ public:
         delete node;
     }
     ~Treap(){
-        deleteNode(root,root->key);
+        deleteChildren(root);
     }
     string name(){return "Treap";}
 private:
