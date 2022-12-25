@@ -1,0 +1,96 @@
+Treap took 0 inserting 2^10 datas
+Treap took 0 searching 2^10 datas
+Treap took 0 inserting 2^11 datas
+Treap took 2 searching 2^11 datas
+Treap took 0 inserting 2^12 datas
+Treap took 0 searching 2^12 datas
+Treap took 4 inserting 2^13 datas
+Treap took 0 searching 2^13 datas
+Treap took 6 inserting 2^14 datas
+Treap took 2 searching 2^14 datas
+Treap took 11 inserting 2^15 datas
+Treap took 6 searching 2^15 datas
+Treap took 24 inserting 2^16 datas
+Treap took 15 searching 2^16 datas
+Treap took 54 inserting 2^17 datas
+Treap took 36 searching 2^17 datas
+Treap took 148 inserting 2^18 datas
+Treap took 157 searching 2^18 datas
+Treap took 437 inserting 2^19 datas
+Treap took 515 searching 2^19 datas
+Treap took 1219 inserting 2^20 datas
+Treap took 1405 searching 2^20 datas
+Treap took 3131 inserting 2^21 datas
+Treap took 3422 searching 2^21 datas
+Treap took 7831 inserting 2^22 datas
+Treap took 8144 searching 2^22 datas
+Treap took 17653 inserting 2^23 datas
+Treap took 18404 searching 2^23 datas
+Treap took 40952 inserting 2^24 datas
+Treap took 42888 searching 2^24 datas
+Treap took 97103 inserting 2^25 datas
+Treap took 103828 searching 2^25 datas
+not enough memory
+not enough memory
+not enough memory
+not enough memory
+HashTable took 0 inserting 2^10 datas
+HashTable took 1 searching 2^10 datas
+HashTable took 0 inserting 2^11 datas
+HashTable took 1 searching 2^11 datas
+HashTable took 2 inserting 2^12 datas
+HashTable took 0 searching 2^12 datas
+HashTable took 2 inserting 2^13 datas
+HashTable took 1 searching 2^13 datas
+HashTable took 6 inserting 2^14 datas
+HashTable took 2 searching 2^14 datas
+HashTable took 13 inserting 2^15 datas
+HashTable took 4 searching 2^15 datas
+HashTable took 28 inserting 2^16 datas
+HashTable took 10 searching 2^16 datas
+HashTable took 69 inserting 2^17 datas
+HashTable took 28 searching 2^17 datas
+HashTable took 183 inserting 2^18 datas
+HashTable took 79 searching 2^18 datas
+HashTable took 405 inserting 2^19 datas
+HashTable took 175 searching 2^19 datas
+HashTable took 756 inserting 2^20 datas
+HashTable took 518 searching 2^20 datas
+HashTable took 1640 inserting 2^21 datas
+HashTable took 1090 searching 2^21 datas
+HashTable took 3610 inserting 2^22 datas
+HashTable took 2301 searching 2^22 datas
+HashTable took 7908 inserting 2^23 datas
+HashTable took 5679 searching 2^23 datas
+HashTable took 16866 inserting 2^24 datas
+HashTable took 11628 searching 2^24 datas
+HashTable took 45722 inserting 2^25 datas
+HashTable took 25152 searching 2^25 datas
+not enough memory
+not enough memory
+not enough memory
+not enough memory
+SkipList took 1 inserting 2^10 datas
+SkipList took 0 searching 2^10 datas
+SkipList took 1 inserting 2^11 datas
+SkipList took 0 searching 2^11 datas
+SkipList took 2 inserting 2^12 datas
+SkipList took 1 searching 2^12 datas
+SkipList took 3 inserting 2^13 datas
+SkipList took 2 searching 2^13 datas
+SkipList took 7 inserting 2^14 datas
+SkipList took 4 searching 2^14 datas
+SkipList took 17 inserting 2^15 datas
+SkipList took 15 searching 2^15 datas
+SkipList took 42 inserting 2^16 datas
+SkipList took 46 searching 2^16 datas
+SkipList took 145 inserting 2^17 datas
+SkipList took 183 searching 2^17 datas
+SkipList took 409 inserting 2^18 datas
+SkipList took 625 searching 2^18 datas
+SkipList took 1365 inserting 2^19 datas
+SkipList took 2128 searching 2^19 datas
+SkipList took 4885 inserting 2^20 datas
+SkipList took 8718 searching 2^20 datas
+SkipList took 23978 inserting 2^21 datas
+SkipList took 44926 searching 2^21 datas
